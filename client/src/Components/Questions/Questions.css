@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+button {
+  outline: none !important;
+}
+
+.Question {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #09181f;
+}
+
+.Question-img {
+  margin-top: 1em;
+  height: 300px;
+  margin-bottom: -3em;
+}
+
+.Question-formcontainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 30%;
+}
+
+.Question-container {
+  display: flex;
+  flex-direction: column;
+  height: 98vh;
+  width: 70%;
+  overflow-y: scroll;
+}
+
+.Question-card {
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #465962;
+  width: 95%;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 6px;
+}
+
+.Question-card-button {
+  border: none;
+  background-color: #071916;
+  width: 35%;
+  color: #cbc3c4;
+  font-size: 16px;
+  padding: 4px;
+  font-weight: 400;
+  border-radius: 4px;
+  opacity: 90%;
+  margin-left: 1em;
+  outline: none;
+}
+
+.Question-delete-button {
+  border: none;
+  background-color: #19070a;
+  width: 10%;
+  color: #cbc3c4;
+  font-size: 16px;
+  padding: 4px;
+  font-weight: 400;
+  border-radius: 4px;
+  opacity: 90%;
+  margin-left: 1em;
+  outline: none;
+}
+
+.Question-buttonholder {
+  text-align: center;
+  width: 100%;
+}
+
+.Question-createAnswers {
+  width: 100%;
+  display: flex;
+}
+
+.Question-title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: black;
+}
+
+.Question-body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  color: whitesmoke;
+  font-size: 18px;
+}

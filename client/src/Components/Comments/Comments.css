@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+.Comments {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Comments-card {
+  padding: 0.4em;
+  width: 100%;
+  background-color: #a5aeb2;
+  margin: 3px;
+  border-radius: 6px;
+}
+
+.Comments-body {
+  font-size: 16px;
+}

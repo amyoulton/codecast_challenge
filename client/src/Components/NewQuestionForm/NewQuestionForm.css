@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.NewQuestionForm {
+  margin-top: 0rem;
+  padding: 3em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #2c414b;
+  border-radius: 5%;
+}
+
+.NewQuestionForm-header {
+  padding-bottom: 1rem;
+  color: whitesmoke;
+}
+
+.NewQuestionForm-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.NewQuestionForm-title {
+  width: 100%;
+  outline: none;
+  resize: none;
+  padding: 0.5em;
+  background-color: white;
+  opacity: 70%;
+  border: solid thin #2c414b;
+}
+
+.NewQuestionForm-body {
+  width: 100%;
+  height: 130px;
+  outline: none;
+  resize: none;
+  padding: 0.5em;
+  background-color: white;
+  opacity: 70%;
+  border: solid thin #2c414b;
+}
+
+.NewQuestionForm-btn {
+  align-self: center;
+  border: none;
+  background-color: #310e14;
+  width: 80%;
+  color: #cbc3c4;
+  padding: 4px;
+  border-radius: 4px;
+  opacity: 90%;
+  outline: none;
+}
+
+.NewQuestionForm-field {
+  font-size: 16px;
+  color: white;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+.Answers {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Answers-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #617178;
+  width: 95%;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 6px;
+}
+
+.Answers-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.Answers-card-button {
+  border: none;
+  background-color: #2c414b;
+  width: 50%;
+  color: white;
+  padding: 4px;
+  border-radius: 4px;
+  opacity: 90%;
+}
+
+.Answers-delete-button {
+  border: none;
+  background-color: #19070a;
+  width: 10%;
+  color: white;
+  padding: 4px;
+  border-radius: 4px;
+  margin-left: 1em;
+  opacity: 90%;
+}
+
+.Answers-body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0.5em;
+  width: 100%;
+}
+
+.Answers-comments-card {
+  width: 100%;
+  padding: 1em;
+}
