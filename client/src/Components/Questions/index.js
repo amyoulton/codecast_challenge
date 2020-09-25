@@ -42,7 +42,7 @@ class MainPage extends Component {
     Question.get(id).then((ques) => {
       console.log('this is ques:', ques);
       this.setState({
-        questions: [ques],
+        questions: [ques, ...this.state.questions],
       });
     });
   }
